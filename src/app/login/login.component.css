@@ -1,0 +1,81 @@
+.example-card {
+    max-width: 358px;
+    border-radius: 23px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15); 
+    margin: auto;
+    top: 10%;
+
+}
+  
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+    
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  .example-card i{
+      padding: 0 5px;
+  }
+
+  button{
+    background: linear-gradient(90deg,#755bea,#ff2c0f);
+    border-radius: 22px;
+}
+
+button:hover{
+    background: linear-gradient(90deg, #ff0000,#ff8307);
+    transition-duration:all ease 5s;
+
+}
+
+.for{
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    cursor: pointer;
+    padding: 0 3px;
+}
+
+/* .container{
+    position: absolute;
+    left: 28%;
+    top: 15%;
+    padding: 0;
+    margin: 0;
+}  */
+
+.container{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+/* .icon{
+    position: absolute;
+}
+
+.icon img{
+    top: 30px;
+} */
+
+
+
+#sec{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../../assets/img/night.jpg');
+    background-position: center;
+    background-size: cover;
+height: 100vh;
+}
+  
